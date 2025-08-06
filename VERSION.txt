@@ -1,0 +1,41 @@
+Frida工具箱正式版本信息
+========================
+
+当前正式版本: v2.1 Release
+发布日期: 2024-12-19
+主文件: frida_toolbox_v2.1_release.ps1
+状态: 稳定版本
+
+版本历史:
+---------
+v2.1 Release (2024-12-19)
+- 修复Job管理器日期减法错误
+- 修复Job ID显示问题
+- 统一数据结构
+- 优化错误处理
+- 完善Job管理功能
+
+v2.1 (开发版)
+- 后台运行模式
+- Job管理系统
+- 智能环境检测
+
+v1.0
+- 基础功能实现
+
+文件说明:
+---------
+- frida_toolbox_v2.1_release.ps1: 正式版本（推荐使用）
+- frida_toolbox_background.ps1: 开发版本
+- job_management_enhancement.ps1: Job管理模块
+- RELEASE_NOTES_v2.1.md: 详细发布说明
+- README.md: 项目说明和使用指南
+
+使用建议:
+---------
+生产环境请使用正式版本文件 frida_toolbox_v2.1_release.ps1
+开发和测试可以使用 frida_toolbox_background.ps1
+
+技术支持:
+---------
+如遇问题请参考 RELEASE_NOTES_v2.1.md 或项目文档
